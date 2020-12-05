@@ -4,10 +4,9 @@
 using namespace std;
 
 template <typename T>
-
 T min_ch(const T f, const T s)
 {
-	return (f > s) ? f : s;
+	return (f < s) ? f : s;
 }
 
 template <class T>
